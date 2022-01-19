@@ -1,0 +1,183 @@
+body{
+    margin:0;
+    padding: 0;
+
+}
+
+.banner {
+    background-image: url("../Img/banner2.png");
+    background-repeat:repeat-x;
+    background-color: black;
+    height: 130px;
+    
+
+}
+
+h1 {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.containerbody{
+    display: flex;
+    background-color: grey;
+    width: auto;
+
+
+
+
+    
+    
+}
+
+
+.filterleft {
+    background-color: yellow;
+    flex-basis: 30%;
+}
+
+.cardright {
+    background-color: aqua;
+    flex-basis: 100%;
+}
+
+/* ---------------------------------------------------Nav------------------------------------------------------------------------------------------ */
+
+.NavContainer{
+    display: flex;
+    width: auto;
+
+    
+
+}
+
+.NavContainerLeft{
+    display: flex;
+    flex-basis: 80%;
+}
+
+.NavLinkHome{
+    justify-content: flex-start;
+    margin-left: 2%;
+}
+
+.NavContainerRight{
+    display: flex;
+    flex-basis: 20%;
+    justify-content:space-evenly;
+    margin-right: 2%;
+    
+}
+.NavLinkConnexion .NavLinkInscription .NavLinkPanier {
+    justify-content: flex-end;
+    
+
+}
+
+
+.LogoCat {
+    height: auto; 
+    width: auto; 
+    max-width: 75%; 
+    border:5px solid rgba(165,110,71,255);
+    border-radius: 25%;
+    background-color: rgba(165,110,71,255);
+    
+}
+
+/* ---------------------------------------------------Modals------------------------------------------------------------------------------------------ */
+
+.ModalContainerButton{
+    display: flex;
+    justify-content: center;
+}
+.ModalButton{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+
+/* ---------------------------------------------------Cards------------------------------------------------------------------------------------------ */
+
+.CatContainer{
+    width: 100%;
+    height: auto;
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-columns: [first] 33% [second] 33% [third] 33%;
+    grid-template-rows: [first] 10% [second] 10% [third] 10%;
+}
+.CardGroup{
+    flex-basis: 28%;
+    display: flex;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.CatCard{
+    display: flex;    background-color: rgb(152,152,152);
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.6);
+    border-radius: 5%;
+height:50%;
+width: 50%;
+
+    
+    
+}
+.ButtonCardContainer{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    width: 15%;
+    height: 100%;
+    
+    
+    
+    
+}
+.ButtonCard{
+    border-radius: 50%;
+    color: white;
+    width: 60%;
+    height: 20%;
+    font-size: 50%;
+    
+    
+    
+}
+
+.Green{
+    background-color: green;
+    border: 1px solid green;
+}
+
+.Red{
+    background-color: red;
+    border: 1px solid red;
+}
+
+.CardInfoContainer{
+    width: 50%;
+    height: 100%;
+}
+.TextCardContainer{
+    max-width: 100%;
+    font-size: 100%;
+}
+
+.CardImageContainer{
+    height: 100%;
+    width: 35%;
+}
+
+.CatImage{
+    max-width: 100%;
+    height: 50%;
+    border-radius: 25%;
+
+    
+}
